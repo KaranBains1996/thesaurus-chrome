@@ -1,0 +1,16 @@
+{
+  "name": "Thesaurus Chrome",
+  "version": "1.0",
+  "description": "Chrome extension to find similar words using Chrome context menu.",
+  "permissions": ["contextMenus"],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "16": "assets/icons/thesaurus-chrome-16x16.png",
+    "48": "assets/icons/thesaurus-chrome-48x48.png",
+    "128": "assets/icons/thesaurus-chrome-128x128.png"
+  },
+  "manifest_version": 2
+}
